@@ -6,4 +6,8 @@ def count(from, to)
 	end
 end
 
+<<<<<<< HEAD
 #count(1,100)
+=======
+#count(1,100)
+>>>>>>> First commit
