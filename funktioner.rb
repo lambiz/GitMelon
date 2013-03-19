@@ -1,10 +1,9 @@
-def square(number)
-	return number ** 2
+def count(from, to)
+	if from <= to
+		puts from
+		sleep 0.05
+		count(from + 1, to)
+	end
 end
 
-def multiply_by_self(number)
-	return square(number)
-end
-
-puts square(ARGV[0].to_i)
-puts multiply_by_self(ARGV[0].to_i)
+#count(1,100)
