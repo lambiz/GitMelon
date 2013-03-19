@@ -1,4 +1,4 @@
-tal = rand(10)+1
+tal = rand(100)+1
 puts "Guess the number"
 guess = gets.to_i
 guesses = 1
